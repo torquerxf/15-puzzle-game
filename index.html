@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <title>15-puzzle game</title>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="mainpage">
+        <h1 class="heading">Puzzle <span>game</span></h1>
+        <div class="origamis">
+            <img src="./css/images/_origami.jpg" alt="origami" class="xv-1" draggable="false">
+            <img src="./css/images/_origami.jpg" alt="origami" class="xv-2" draggable="false">
+            <img src="./css/images/money.jpg" class="xv-3" draggable="false">
+            <img src="./css/images/money.jpg" class="xv-4" draggable="false">
+        </div>
+        <div class="board" id="board">
+        </div>
+        <div class="play">
+            <button  onclick="t_ime()"><span id="play_stop">PLAY</span></button>
+            <div class="info">
+            <h3>Turns : <span id="turns">0</span></h3>
+            <h3>Time : <span id="time">0</span></h2>
+        </div>
+        </div>
+    </div>
+</body>
+
+</html>
